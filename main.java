@@ -5,7 +5,7 @@ public class main{
     }
     public static int fak( int a){
         if (a==0 || a==1){
-            return fak(a);
+            return 1;
         }
         else {
             return fak(a-1)+fak(a-2);

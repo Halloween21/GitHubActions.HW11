@@ -1,5 +1,9 @@
 public class main {
 
+    /**
+     * Main class
+     * @param args
+     */
     public static void main(String[] args) {
         int a = 5;
         System.out.println(fak(a));
@@ -10,7 +14,7 @@ public class main {
      * @param a is the faculty we want to calculate
      * @return the faculty number we want
      */
-    public static int fak(int a) {
+    public static final int fak(int a) {
         if (a == 0 || a == 1) {
             return 1;
         } else {
